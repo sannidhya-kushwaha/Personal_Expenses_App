@@ -61,7 +61,6 @@ class TransactionList extends StatelessWidget {
           );
         },
         itemCount: transactions.length,
-        children: transactions.map((tx) {}).toList(),
       ),
     );
   }
